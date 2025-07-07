@@ -1,0 +1,167 @@
+[
+    {
+        "course_code": "GST101",
+        "course_title": "Use of English and Communication Skills I",
+        "course_description": "Develops foundational English language skills, including grammar, comprehension, essay writing, and basic communication strategies.",
+        "resources": [
+            {"type": "youtube_video", "title": "Grammar Basics: Nouns, Verbs, Adjectives", "link": "https://www.youtube.com/watch?v=Gk6r_oN0070"},
+            {"type": "pdf", "title": "Academic Essay Writing Guide", "link": "https://www.reading.ac.uk/web/files/study-advice/AcademicWritingSkills.pdf"},
+            {"type": "past_question", "title": "GST101 Past Questions (Sample)", "link": "https://example.com/gst101_past_questions.pdf"},
+            {"type": "article", "title": "Effective Communication Strategies", "link": "https://www.indeed.com/career-advice/career-development/effective-communication-skills"}
+        ]
+    },
+    {
+        "course_code": "MTH101",
+        "course_title": "General Mathematics I",
+        "course_description": "Introduces fundamental concepts of algebra, trigonometry, coordinate geometry, and basic set theory.",
+        "resources": [
+            {"type": "youtube_video", "title": "Algebra for Beginners: Full Course", "link": "https://www.youtube.com/watch?v=f_T3x-bL8rE"},
+            {"type": "pdf", "title": "Trigonometry Basics Notes", "link": "https://www.mathsisfun.com/algebra/images/trig-summary.pdf"},
+            {"type": "past_question", "title": "MTH101 First Semester Exam Questions", "link": "https://example.com/mth101_exam_questions.pdf"},
+            {"type": "article", "title": "Understanding Set Theory", "link": "https://www.britannica.com/science/set-theory"}
+        ]
+    },
+    {
+        "course_code": "CHM101",
+        "course_title": "General Principles of Chemistry I",
+        "course_description": "Covers atomic structure, chemical bonding, periodicity, states of matter, and basic stoichiometry.",
+        "resources": [
+            {"type": "youtube_video", "title": "Atomic Structure and Periodicity", "link": "https://www.youtube.com/watch?v=thnDxFdkzZs"},
+            {"type": "pdf", "title": "Chemical Bonding Explained", "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/08%3A_Basic_Concepts_of_Chemical_Bonding"},
+            {"type": "past_question", "title": "CHM101 Theory & Objectives Questions", "link": "https://example.com/chm101_questions.pdf"},
+            {"type": "article", "title": "Introduction to Stoichiometry", "link": "https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiometry"}
+        ]
+    },
+    {
+        "course_code": "PHY101",
+        "course_title": "General Physics I",
+        "course_description": "Focuses on mechanics, including motion, forces, work, energy, and rotational dynamics.",
+        "resources": [
+            {"type": "youtube_video", "title": "Newton's Laws of Motion Explained", "link": "https://www.youtube.com/watch?v=fBgLdGz83qQ"},
+            {"type": "pdf", "title": "Work, Energy, and Power Notes", "link": "https://www.physicsclassroom.com/class/energy/Lesson-1/Work"},
+            {"type": "past_question", "title": "PHY101 Mechanics Questions", "link": "https://example.com/phy101_mechanics.pdf"},
+            {"type": "article", "title": "Understanding Rotational Dynamics", "link": "https://physics.stackexchange.com/questions/11269/what-is-rotational-dynamics"}
+        ]
+    },
+    {
+        "course_code": "CSC101",
+        "course_title": "Introduction to Computer Science",
+        "course_description": "An overview of computing concepts, hardware, software, algorithms, and basic programming logic.",
+        "resources": [
+            {"type": "youtube_video", "title": "What is Computer Science?", "link": "https://www.youtube.com/watch?v=szG2XfT0D6U"},
+            {"type": "pdf", "title": "Introduction to Algorithms PDF", "link": "https://example.com/algorithms_intro.pdf"},
+            {"type": "past_question", "title": "CSC101 Fundamentals Questions", "link": "https://example.com/csc101_fundamentals.pdf"},
+            {"type": "article", "title": "How Computers Work", "link": "https://www.computer.org/publications/tech-news/computing/how-computers-work-a-beginners-guide"}
+        ]
+    },
+    {
+        "course_code": "ECN201",
+        "course_title": "Principles of Microeconomics",
+        "course_description": "Examines individual economic behavior, markets, supply and demand, and market structures.",
+        "resources": [
+            {"type": "youtube_video", "title": "Supply and Demand Explained", "link": "https://www.youtube.com/watch?v=J90X06g00-I"},
+            {"type": "pdf", "title": "Microeconomics Key Concepts", "link": "https://www.nber.org/system/files/chapters/c13341/c13341.pdf"},
+            {"type": "past_question", "title": "ECN201 Microeconomics Exam", "link": "https://example.com/ecn201_micro_exam.pdf"},
+            {"type": "article", "title": "Understanding Market Structures", "link": "https://www.investopedia.com/terms/m/marketstructure.asp"}
+        ]
+    },
+    {
+        "course_code": "ACC201",
+        "course_title": "Introduction to Financial Accounting",
+        "course_description": "Covers accounting principles, financial statements, ledgers, and basic bookkeeping techniques.",
+        "resources": [
+            {"type": "youtube_video", "title": "Financial Accounting for Beginners", "link": "https://www.youtube.com/watch?v=3S_o0l-gEaI"},
+            {"type": "pdf", "title": "Basic Accounting Equation", "link": "https://www.wallstreetmojo.com/accounting-equation-examples/"},
+            {"type": "past_question", "title": "ACC201 Principles of Accounting", "link": "https://example.com/acc201_accounting.pdf"},
+            {"type": "article", "title": "Understanding the Balance Sheet", "link": "https://www.investopedia.com/terms/b/balancesheet.asp"}
+        ]
+    },
+    {
+        "course_code": "LAW101",
+        "course_title": "Introduction to Nigerian Legal System",
+        "course_description": "Overview of sources of Nigerian law, judicial hierarchy, and legal concepts.",
+        "resources": [
+            {"type": "youtube_video", "title": "Sources of Nigerian Law", "link": "https://www.youtube.com/watch?v=your_law_video_link"},
+            {"type": "pdf", "title": "Nigerian Legal System Simplified", "link": "https://example.com/nigerian_law_intro.pdf"},
+            {"type": "past_question", "title": "LAW101 Legal System Questions", "link": "https://example.com/law101_questions.pdf"},
+            {"type": "article", "title": "Understanding Judicial Precedent in Nigeria", "link": "https://www.dnllegalandstyle.com/2021/07/04/understanding-the-doctrine-of-judicial-precedent-in-nigeria/"}
+        ]
+    },
+    {
+        "course_code": "MED201",
+        "course_title": "Human Anatomy and Physiology I",
+        "course_description": "Explores the structure and function of the human body, focusing on major organ systems.",
+        "resources": [
+            {"type": "youtube_video", "title": "Human Body Systems Overview", "link": "https://www.youtube.com/watch?v=s1Rjm1vS1M0"},
+            {"type": "pdf", "title": "Anatomy and Physiology Study Guide", "link": "https://example.com/anatomy_physiology_guide.pdf"},
+            {"type": "past_question", "title": "MED201 Anatomy Questions", "link": "https://example.com/med201_anatomy.pdf"},
+            {"type": "article", "title": "How the Circulatory System Works", "link": "https://www.innerbody.com/image/cardov.html"}
+        ]
+    },
+    {
+        "course_code": "CVE301",
+        "course_title": "Fluid Mechanics",
+        "course_description": "Studies the behavior of fluids at rest and in motion, including fluid properties and flow analysis.",
+        "resources": [
+            {"type": "youtube_video", "title": "Introduction to Fluid Mechanics", "link": "https://www.youtube.com/watch?v=E-b0-0z4KjA"},
+            {"type": "pdf", "title": "Fluid Dynamics Principles", "link": "https://example.com/fluid_dynamics_notes.pdf"},
+            {"type": "past_question", "title": "CVE301 Fluid Mechanics Exam", "link": "https://example.com/cve301_exam.pdf"},
+            {"type": "article", "title": "Understanding Bernoulli's Principle", "link": "https://www.britannica.com/science/Bernoullis-theorem"}
+        ]
+    },
+    {
+        "course_code": "MEE401",
+        "course_title": "Thermodynamics",
+        "course_description": "Deals with heat, work, energy, and their relationships to physical properties of matter.",
+        "resources": [
+            {"type": "youtube_video", "title": "Laws of Thermodynamics Explained", "link": "https://www.youtube.com/watch?v=0N3B5f_gNmg"},
+            {"type": "pdf", "title": "Thermodynamics Formulas Cheatsheet", "link": "https://example.com/thermo_formulas.pdf"},
+            {"type": "past_question", "title": "MEE401 Thermodynamics Test", "link": "https://example.com/mee401_test.pdf"},
+            {"type": "article", "title": "Entropy and the Second Law", "link": "https://www.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-entropy"}
+        ]
+    },
+    {
+        "course_code": "EEE301",
+        "course_title": "Electrical Circuits Analysis",
+        "course_description": "Analyzes DC and AC circuits, including Ohm's law, Kirchhoff's laws, and circuit theorems.",
+        "resources": [
+            {"type": "youtube_video", "title": "Kirchhoff's Voltage and Current Laws", "link": "https://www.youtube.com/watch?v=l_93yH4fH4o"},
+            {"type": "pdf", "title": "Basic Electrical Circuits Notes", "link": "https://example.com/electrical_circuits_notes.pdf"},
+            {"type": "past_question", "title": "EEE301 Circuit Analysis Exam", "link": "https://example.com/eee301_exam.pdf"},
+            {"type": "article", "title": "Understanding Series and Parallel Circuits", "link": "https://www.electronics-tutorials.ws/circuit/series-circuits.html"}
+        ]
+    },
+    {
+        "course_code": "AGR201",
+        "course_title": "Introduction to Crop Science",
+        "course_description": "Covers principles of crop production, classification, propagation, and common crops in Nigeria.",
+        "resources": [
+            {"type": "youtube_video", "title": "Basic Crop Production Techniques", "link": "https://www.youtube.com/watch?v=your_agri_video_link"},
+            {"type": "pdf", "title": "Crop Science Fundamentals", "link": "https://example.com/crop_science_fundamentals.pdf"},
+            {"type": "past_question", "title": "AGR201 Crop Science Test", "link": "https://example.com/agr201_test.pdf"},
+            {"type": "article", "title": "Common Cash Crops in Nigeria", "link": "https://www.vanguardngr.com/2023/11/top-10-cash-crops-in-nigeria/"}
+        ]
+    },
+    {
+        "course_code": "FIN301",
+        "course_title": "Financial Management",
+        "course_description": "Principles of corporate finance, investment decisions, capital budgeting, and working capital management.",
+        "resources": [
+            {"type": "youtube_video", "title": "Capital Budgeting Techniques", "link": "https://www.youtube.com/watch?v=LqVw5ZfE51c"},
+            {"type": "pdf", "title": "Introduction to Financial Management", "link": "https://example.com/financial_mgmt_intro.pdf"},
+            {"type": "past_question", "title": "FIN301 Corporate Finance Exam", "link": "https://example.com/fin301_exam.pdf"},
+            {"type": "article", "title": "Understanding Working Capital", "link": "https://www.investopedia.com/terms/w/workingcapital.asp"}
+        ]
+    },
+    {
+        "course_code": "EDU101",
+        "course_title": "Introduction to Educational Psychology",
+        "course_description": "Examines psychological principles relevant to teaching and learning, including theories of development and motivation.",
+        "resources": [
+            {"type": "youtube_video", "title": "Learning Theories in Education", "link": "https://www.youtube.com/watch?v=your_edu_psych_video_link"},
+            {"type": "pdf", "title": "Child Development Theories Summary", "link": "https://example.com/child_development_summary.pdf"},
+            {"type": "past_question", "title": "EDU101 Educational Psychology Questions", "link": "https://example.com/edu101_questions.pdf"},
+            {"type": "article", "title": "Motivation in the Classroom", "link": "https://www.edutopia.org/article/what-do-we-mean-when-we-talk-about-student-motivation/"}
+        ]
+    }
+]
