@@ -1,15 +1,47 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter
+import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 router = APIRouter()
 
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
 @router.get("/")
 def chatbot(query: str):
-    user_input = query.lower()
-    if "improve my gpa" in user_input:
-        return {"answer": "Attend tutorials, manage your time, study past papers."}
-    elif "internship" in user_input:
-        return {"answer": "Check Jobberman, LinkedIn, or your department board."}
-    elif "career path" in user_input:
-        return {"answer": "Try our Career Recommender feature to get a personalized path."}
+    if not OPENROUTER_API_KEY:
+        return {"error": "API key missing. Set OPENROUTER_API_KEY as an environment variable."}
+
+    url = "https://openrouter.ai/api/v1/chat/completions"
+
+    payload = {
+        "model": "mistralai/mistral-7b-instruct",
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a smart academic advisor for Nigerian university students. Be brief, helpful and realistic."
+            },
+            {
+                "role": "user",
+                "content": query
+            }
+        ]
+    }
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(url, json=payload, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        return {"answer": data['choices'][0]['message']['content']}
     else:
-        return {"answer": "Sorry, I don't know that yet. Please rephrase your question."}
+        return {
+            "error": f"Request failed with status {response.status_code}",
+            "details": response.text
+        }
