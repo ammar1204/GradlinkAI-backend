@@ -8,3 +8,6 @@ app = FastAPI()
 app.include_router(resource_router, prefix="/resources")
 app.include_router(chatbot_router, prefix="/chatbot")
 app.include_router(career_router, prefix="/careers")
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to GradLink API! Visit /docs for the API docs."}
